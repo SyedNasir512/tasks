@@ -1,4 +1,5 @@
 scikit-learn
 pandas
 keras
-streamlit
+streamlit 
+tensorflow

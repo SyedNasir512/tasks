@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 from sklearn.metrics import accuracy_score
 
-model = joblib.load('heart_prediction.keras')  # Ensure this is the model, not data
+model = joblib.load('heart_prediction.keras') 
 
 # Load the test data
 test_data = pd.read_csv('heart-disease.csv')
